@@ -1,10 +1,15 @@
-import { Children } from 'react';
 import './Button.css';
 
-function Button() {
-  return (
-    <button className="button accent">{Children}</button>
-  );
+function Button( {text, onClick} ) {
+
+	return (
+		<button 
+			className='button accent' 
+			onClick={onClick}
+		>
+			{text}
+		</button>
+	);
 }
 
 export default Button;

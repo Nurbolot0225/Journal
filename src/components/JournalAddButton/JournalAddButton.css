@@ -1,0 +1,9 @@
+.journal-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
