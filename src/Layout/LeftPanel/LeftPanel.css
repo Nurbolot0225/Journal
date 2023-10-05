@@ -3,5 +3,10 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    overflow-y: hidden;
+    transition: all 0.3s;
+}
+
+.left-panel:hover {
     overflow-y: scroll;
 }
